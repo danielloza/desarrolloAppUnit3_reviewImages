@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="size_width">120dp</dimen>
+    <dimen name="margin">3dp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="text_size_info">30dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="image_size">35dp</dimen>
+    <dimen name="paddin">2dp</dimen>
+    <dimen name="layout_height">200dp</dimen>
+</resources>

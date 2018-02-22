@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ReviewImage</string>
+    <string name="name_image">Nombre de la imagen</string>
+    <string name="info">Descripcion de la imagen...</string>
+</resources>

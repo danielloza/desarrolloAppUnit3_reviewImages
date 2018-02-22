@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="mx.edu.utng.dloza.reviewimage.MainActivity">
+<TableRow>
+    <ImageButton
+        android:layout_width="@dimen/size_width"
+        android:layout_height="@dimen/size_width"
+        android:layout_margin="@dimen/margin"
+        android:src="@drawable/church"
+        android:id="@+id/image_one"
+        android:onClick="next1"
+        />
+    <ImageButton
+        android:layout_width="@dimen/size_width"
+        android:layout_height="@dimen/size_width"
+        android:src="@drawable/artistry"
+        android:layout_margin="@dimen/margin"
+        android:id="@+id/image_two"
+        android:onClick="next2"
+        />
+        <ImageButton
+            android:layout_width="@dimen/size_width"
+            android:layout_height="@dimen/size_width"
+            android:src="@drawable/nana"
+            android:layout_margin="@dimen/margin"
+            android:id="@+id/image_three"
+            />
+</TableRow>
+    <TableRow>
+        <ImageButton
+            android:layout_width="@dimen/size_width"
+            android:layout_height="@dimen/size_width"
+            android:src="@drawable/mostacho"
+            android:layout_margin="@dimen/margin"
+            android:id="@+id/image_four"
+            />
+        <ImageButton
+            android:layout_width="@dimen/size_width"
+            android:layout_height="@dimen/size_width"
+            android:src="@drawable/back"
+            android:layout_margin="@dimen/margin"
+            android:id="@+id/image_five"
+            />
+        <ImageButton
+            android:layout_width="@dimen/size_width"
+            android:layout_height="@dimen/size_width"
+            android:src="@drawable/back"
+            android:layout_margin="@dimen/margin"
+            android:id="@+id/image_six"
+            />
+    </TableRow>
+
+
+</TableLayout>

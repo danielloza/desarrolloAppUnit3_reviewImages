@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/imagen9"
+    tools:context="mx.edu.utng.dloza.reviewimage.MainActivity">
+<TableRow>
+    <ImageButton
+        android:layout_width="@dimen/size_width"
+        android:layout_height="@dimen/size_width"
+        android:layout_marginHorizontal="8dp"
+        android:src="@drawable/church"
+        />
+    <ImageButton
+        android:layout_width="@dimen/size_width"
+        android:layout_height="@dimen/size_width"
+        android:src="@drawable/fruti"
+        />
+        <ImageButton
+            android:layout_width="@dimen/size_width"
+            android:layout_height="@dimen/size_width"
+            android:src="@drawable/nana"
+            />
+</TableRow>
+    <TableRow>
+        <ImageButton
+            android:layout_width="@dimen/size_width"
+            android:layout_height="@dimen/size_width"
+            android:src="@drawable/church"
+            />
+        <ImageButton
+            android:layout_width="@dimen/size_width"
+            android:layout_height="@dimen/size_width"
+            android:src="@drawable/church"
+            />
+        <ImageButton
+            android:layout_width="@dimen/size_width"
+            android:layout_height="@dimen/size_width"
+            android:src="@drawable/church"
+            />
+    </TableRow>
+
+
+</TableLayout>
